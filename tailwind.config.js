@@ -11,6 +11,10 @@ module.exports = {
     extend: {
       width: {
         '22p': '22%',
+        '981p' : '981px',
+      },
+      height: {
+        '100p': '28rem',
       },
       fontFamily: {
         sans: 'Montserrat, sans-serif'
