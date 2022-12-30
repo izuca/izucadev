@@ -9,6 +9,9 @@ module.exports = {
       'branco-600': '#F2F2F2b3',
     },
     extend: {
+      width: {
+        '22p': '22%',
+      },
       fontFamily: {
         sans: 'Montserrat, sans-serif'
       },
