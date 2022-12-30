@@ -1,0 +1,73 @@
+<div class="flex justify-center mt-10">
+    {# Info #}
+    <div class="flex flex-col gap-2 align-bottom bg-preto-700 pl-9 pr-24 py-11">
+        <h1 class="font-bold mb-6 text-6xl text-branco-900">Entre em contato</h1>
+
+        <div class="flex items-center gap-4">
+            <img src="images/contact/emailContact.png" alt="E-mail Ícone">
+            <p class="font-bold text-vermelho text-2xl">adriel200010@hotmail.com</p>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <img src="images/contact/telephoneContact.png" alt="Ícone Telefone">
+            <p class="font-bold text-vermelho text-2xl">(62) 9 8115-7002</p>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <img src="images/contact/githubContact.png" alt="Ícone Github">
+            <p class="font-bold text-vermelho text-2xl">izuca</p>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <img src="images/contact/linkedinContact.png" alt="Ícone Linkedin">
+            <p class="font-bold text-vermelho text-2xl">adrielferreira</p>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <img src="images/contact/instagramContact.png" alt="Ícone Instagram">
+            <p class="font-bold text-vermelho text-2xl">adriel3301</p>
+        </div>
+    </div>
+    {# Formulário #}
+    <form class="bg-branco-900 w-96 flex flex-col justify-center scale-110 -translate-y-6" name="contact" action="/success" method="POST" data-netlify="true">
+    
+    <div class="flex flex-col justify-center px-9 py-9 gap-7">
+        <input class=
+        "bg-transparent 
+        py-2 px-4 
+        text-vermelho font-bold 
+        placeholder:text-vermelho placeholder:text-lg placeholder:font-bold 
+        border-2 border-vermelho 
+        hover:-translate-y-1
+        focus:bg-vermelho focus:text-branco-900 focus:outline-none focus:-translate-y-0
+        transition durantion-200 " 
+        name="name" type="text" id="yourName" required="true" placeholder="Nome Completo">
+        
+        <input class=
+        "bg-transparent 
+        py-2 px-4  
+        text-vermelho font-bold 
+        placeholder:text-vermelho placeholder:text-lg placeholder:font-bold 
+        border-2 border-vermelho 
+        hover:-translate-y-1
+        focus:bg-vermelho focus:text-branco-900 focus:outline-none focus:-translate-y-0
+        transition durantion-200 " 
+        name="email" type="email"  id="yourEmail" required="true" placeholder="E-mail">
+        
+        <textarea class=
+        "bg-transparent 
+        py-2 px-4  
+        text-vermelho font-bold 
+        placeholder:text-vermelho placeholder:text-lg placeholder:font-bold 
+        border-2 border-vermelho 
+        hover:-translate-y-1
+        focus:bg-vermelho focus:text-branco-900 focus:outline-none focus:-translate-y-0
+        transition durantion-200 " 
+        name="message" id="message" rows="4" required="true" placeholder="Mensagem"></textarea>
+        
+        <button class="btn rounded-none bg-branco-900 text-vermelho border-2 border-vermelho hover:bg-vermelho hover:text-branco-900 hover:border-none" type="submit">Enviar</button>
+    </div>
+    
+    
+    </form>   
+</div>
