@@ -12,9 +12,11 @@ module.exports = {
       width: {
         '22p': '22%',
         '981p' : '981px',
+        '75p' : '75rem',
       },
       height: {
         '100p': '28rem',
+        '120p': '31rem',
       },
       fontFamily: {
         sans: 'Montserrat, sans-serif'
