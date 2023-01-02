@@ -30,6 +30,7 @@ module.exports = (eleventyConfig) => {
       );
   });
   eleventyConfig.addPassthroughCopy("./src/images/");
+  eleventyConfig.addPassthroughCopy("./src/scripts/");
   eleventyConfig.addPassthroughCopy({ "./src/favicons": "/" }); 
   eleventyConfig.addWatchTarget('styles/**/*.css');
   eleventyConfig.addNunjucksAsyncShortcode("EleventyImage", imageShortcode);

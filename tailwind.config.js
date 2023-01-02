@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{njk,md}'],
+  content: ['./src/**/*.{njk,md,js}'],
   theme: {
     colors: {
       'vermelho': '#8C072B',

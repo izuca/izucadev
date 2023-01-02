@@ -12,6 +12,7 @@
     "autoprefixer": "^10.4.2",
     "daisyui": "^2.6.0",
     "postcss": "^8.4.7",
+    "scrollreveal": "^4.0.9",
     "tailwindcss": "^3.0.23",
     "vite": "^2.8.6"
   }
