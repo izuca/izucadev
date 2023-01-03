@@ -14,7 +14,7 @@ btn.addEventListener("click", ()=>{
 })
 
 document.getElementById("menu").addEventListener("click", ()=> {
-    if(document.URL!= "http://localhost:8080/" && document.getElementById("menu").classList.contains("flex")){
+    if(document.URL!= myUrl && document.getElementById("menu").classList.contains("flex")){
         document.getElementById("menu").classList.remove("flex")
         document.getElementById("menu").classList.remove("lg:hidden")
         document.getElementById("menu").classList.add("hidden")

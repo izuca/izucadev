@@ -1,3 +1,4 @@
+const myUrl = 'https://www.izuca.dev/'
 
 //Criando animação
 let slideUp = {
@@ -17,22 +18,20 @@ ScrollReveal().reveal('#contatos', slideUp)
 // Sobre mim
 document.getElementById("aboutMe").addEventListener("click",() => {
     document.getElementById("about").scrollIntoView({behavior: "smooth"})
-    console.log(document.URL)
 })
-if(document.URL !== "http://localhost:8080/"){
+if(document.URL !== myUrl){
     document.getElementById("aboutMe").addEventListener("click",() =>{
-        window.location = "http://localhost:8080/#about"
+        window.location = `${myUrl}#about`
     })
 } 
 
 // Habilidades
 document.getElementById("skills").addEventListener("click",() => {
     document.getElementById("mySkills").scrollIntoView({behavior: "smooth"})
-    console.log(document.URL)
 })
-if(document.URL !== "http://localhost:8080/"){
+if(document.URL !== myUrl){
     document.getElementById("skills").addEventListener("click",() =>{
-        window.location = "http://localhost:8080/#mySkills"
+        window.location = `${myUrl}#mySkills`
     })
 }
 
@@ -40,9 +39,9 @@ if(document.URL !== "http://localhost:8080/"){
 document.getElementById("projects").addEventListener("click",() => {
     document.getElementById("myProjects").scrollIntoView({behavior: "smooth"})
 })
-if(document.URL !== "http://localhost:8080/"){
+if(document.URL !== myUrl){
     document.getElementById("projects").addEventListener("click",() =>{
-        window.location = "http://localhost:8080/#myProjects"
+        window.location = `${myUrl}#myProjects`
     })
 }
 
@@ -50,8 +49,9 @@ if(document.URL !== "http://localhost:8080/"){
 document.getElementById("contact").addEventListener("click",() => {
     document.getElementById("myContact").scrollIntoView({behavior: "smooth"})
 })
-if(document.URL !== "http://localhost:8080/"){
+if(document.URL !== myUrl){
     document.getElementById("contact").addEventListener("click",() =>{
-        window.location = "http://localhost:8080/#myContact"
+        window.location = `${myUrl}#myContact`
     })
 }
+
