@@ -18,6 +18,9 @@ module.exports = {
         '100p': '28rem',
         '120p': '31rem',
       },
+      fontSize: {
+        smallp: '0.675rem',
+      },
       fontFamily: {
         sans: 'Montserrat, sans-serif'
       },

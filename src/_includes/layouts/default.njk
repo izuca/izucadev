@@ -22,11 +22,12 @@ title: IzucaDev
     </style>
   </head>
   <body class="bg-preto-900">
-    <main class='mx-28'>
+    <main class='lg:mx-28'>
       {% include "partials/navbar.njk"%}
       {{content | safe}}
     </main>
       {% include "partials/footer.njk"%}
   </body>
   <script src={{"/scripts/scroll.js" | url}}></script>
+  <script src={{"/scripts/dropdown.js" | url}}></script>
 </html>
