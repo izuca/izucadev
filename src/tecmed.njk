@@ -2,21 +2,22 @@
 title: "IzucaDev"
 layout: "layouts/default.njk"
 ---
-<div class="min-h-screen">
+{% include  'partials/dropmenu.njk'%}
+<div class="min-h-screen lg:mx-0 mx-5">
     <img src="{{ '/images/projetos/bannerTecMed.png' | url}}" alt="" class="w-full">
     
     <div class="flex justify-between item">
-        <h1 class="font-bold text-vermelho text-6xl">Projeto TecMed</h1>
+        <h1 class="font-bold text-vermelho text-3xl lg:text-6xl">Projeto TecMed</h1>
         <div class="flex gap-2">
-            <img src="{{ '/images/techs/figmaRed.png'}}" alt="Ícone Figma" class="w-12 h-16">
-            <img src="{{ '/images/techs/adobeRed.png'}}" alt="Ícone Adonis" class="w-16 h-16">
+            <img src="{{ '/images/techs/figmaRed.png'}}" alt="Ícone Figma" class="lg:w-12 w-7 lg:h-16 h-10">
+            <img src="{{ '/images/techs/adobeRed.png'}}" alt="Ícone Adonis" class="lg:w-16 w-10 lg:h-16 h-10">
         </div>
     </div>
 
     <div class="flex flex-col gap-8 my-10">
         
         <article class="flex flex-col gap-2">
-            <span class="font-bold text-3xl text-branco-900">Sobre o Projeto</span>
+            <span class="font-bold text-2xl lg:text-3xl text-branco-900">Sobre o Projeto</span>
             <div class="bg-vermelho w-36 h-2"></div>
             <p class="text-1xl text-branco-600">A ideia da TecMed surgiu durante a dinâmica do processo seletivo da Empresa Júnior, Code Tower.
             <br><br>
@@ -27,13 +28,13 @@ layout: "layouts/default.njk"
         </article>
         
         <article class="flex flex-col gap-2">
-            <span class="font-bold text-3xl text-branco-900">Desafios enfrentados</span>
+            <span class="font-bold text-2xl lg:text-3xl text-branco-900">Desafios enfrentados</span>
             <div class="bg-vermelho w-56 h-2"></div>
             <p class="text-1xl text-branco-600">Prototipar telas com um design moderno e de forma que a experiência do usuário possa ser agradável e fácil foi o desafio enfrentado durante o desenvolvimento do projeto.</p>
         </article>
         
         <article class="flex flex-col gap-2">
-            <span class="font-bold text-3xl text-branco-900">O que eu aprendi</span>
+            <span class="font-bold text-2xl lg:text-3xl text-branco-900">O que eu aprendi</span>
             <div class="bg-vermelho w-44 h-2"></div>
             <p class="text-1xl text-branco-600">Foi a partir desse projeto que comecei a aprender sobre gerenciamento de projetos, começando pelo levantamento de requisitos até a elaboração de uma apresentação final para os membros responsáveis pelo processo seletivo da Empresa Júnior. Também, pude melhorar as minhas habilidades de UX e UI no decorrer do projeto, introduzindo ao mesmo conceitos como <b>Style Guide</b> e <b>User Flow</b>.
             </p>
